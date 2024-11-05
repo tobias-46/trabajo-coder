@@ -3,21 +3,24 @@
     .botones{
         display: flex;
         justify-content: center;
+        display: flex;
+        
         
     }
 
     .boton-wp {
+        
         justify-content:center;
         margin-top: 40px;
     }
         .bot-wpp{
             text-align: center;
             margin-bottom: 20px;
-            margin-right: 80px;
+            margin-right: 10px;
         }
         .bot-wpp a{
             background-color: rgb(31, 187, 83);
-            padding: 15px;
+            padding: 5px;
             color: white;
             text-decoration: none;
             border-radius: 10px;
@@ -33,7 +36,7 @@
     }
     .bot-igg a{
             background-color: rgb(235, 231, 29);
-            padding: 14px;
+            padding: 5px;
             color: rgb(213, 33, 230);
             text-decoration: none;
             border-radius: 10px;
