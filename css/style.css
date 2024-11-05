@@ -3,7 +3,7 @@ body {
 }
 
 header nav {
-  background-color: rgb(180, 134, 15);
+  background-color: rgb(150, 149, 148);
 }
 header .collapse navbar-collapse {
   text-align: center;
@@ -13,13 +13,13 @@ section h1 {
   text-align: center;
   color: rgb(231, 225, 225);
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 main .container-card {
   width: 300px;
   margin-left: 100px;
-  margin-top: 20px;
+  margin-top: 40px;
   display: flex;
 }
 main .container-card-2 {
@@ -27,6 +27,60 @@ main .container-card-2 {
   margin-left: 100px;
   margin-top: 20px;
   display: flex;
+}
+main .container-card-3 {
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 20px;
+  display: flex;
+}
+main .container-card-4 {
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+}
+
+.boton-wp {
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.bot-wpp {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 80px;
+}
+
+.bot-wpp a {
+  background-color: rgb(31, 187, 83);
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.boton-ig {
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.bot-igg {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bot-igg a {
+  background-color: rgb(235, 231, 29);
+  padding: 14px;
+  color: rgb(213, 33, 230);
+  text-decoration: none;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

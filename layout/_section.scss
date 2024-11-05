@@ -3,16 +3,17 @@ section{
         text-align: center;
         color: rgb(231, 225, 225);
         font-family: Arial, Helvetica, sans-serif;
-        margin-top: 30px;
+        margin-top: 40px;
     }
 }
-main {
+main{
 
     .container-card {
         width: 300px;
         margin-left: 100px;
-        margin-top: 20px;
+        margin-top: 40px;
         display: flex;
+        
     }  
     .container-card-2{
         width: 300px;
@@ -20,4 +21,19 @@ main {
         margin-top: 20px;
         display: flex;
     }
+
+    .container-card-3{
+        width: 300px;
+        margin-left: 100px;
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .container-card-4{
+        width: 300px;
+        margin-left: 100px;
+        margin-top: 20px;
+        display: flex;
+    }
+
 }
