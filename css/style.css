@@ -14,12 +14,40 @@ header .collapse navbar-collapse {
   text-align: center;
 }
 
-@media screen and (min-width: 550px) and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   section h1 {
     color: aliceblue;
+    margin-bottom: 60px;
   }
   section span {
     color: red;
+  }
+  main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .container-card .card {
+    height: 330px;
+  }
+  .container-card-2 img {
+    height: 110px;
+  }
+  .container-card-2 .card {
+    height: 330px;
+  }
+  .container-card-3 .card {
+    height: 330px;
+  }
+  .container-card-4 .card {
+    height: 330px;
+  }
+  .botones {
+    display: flex;
+    margin: 100px;
+  }
+  .botones .boton-wp {
+    margin-right: 300px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -52,7 +80,7 @@ section h1 {
 main .container-card {
   width: 200px;
   height: 260px;
-  margin-top: 40px;
+  margin-top: 25px;
   display: flex;
 }
 main .container-card-2 {
@@ -77,7 +105,6 @@ main .container-card-4 {
 .botones {
   display: flex;
   justify-content: center;
-  display: block;
 }
 
 .boton-wp {
@@ -97,6 +124,10 @@ main .container-card-4 {
   color: white;
   text-decoration: none;
   border-radius: 10px;
+  transition: 1s;
+}
+.bot-wpp a:hover {
+  background-color: #1a1a1a;
 }
 
 .boton-ig {
@@ -115,6 +146,10 @@ main .container-card-4 {
   color: rgb(213, 33, 230);
   text-decoration: none;
   border-radius: 10px;
+  transition: 1s;
+}
+.bot-igg a:hover {
+  background-color: #1a1a1a;
 }
 
 /*# sourceMappingURL=style.css.map */
