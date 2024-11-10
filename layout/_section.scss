@@ -5,34 +5,46 @@ section{
         margin-top: 40px;
     }
 }
-main{
+main {
 
-    .container-card {
-        width: 200px;
-        height: 260px;
-        margin-top: 25px;
-        display: flex;
-        
-    }  
-    .container-card-2{
-        width: 200px;
-        height: 310px;
-        margin-top: 20px;
-        display: flex;
-    }
+.container-card{
+    width: 200px;
+    height: 310px;
+    margin-top: 20px;
+    display: flex;
+}
 
-    .container-card-3{
-        width: 200px;
-        height: 260px;
-        margin-top: 20px;
-        display: flex;
-    }
+.container-card-2{
+    width: 200px;
+    height: 310px;
+    margin-top: 20px;
+    display: flex;
+}
 
-    .container-card-4{
-        width: 200px;
-        height: 310px;
-        margin-top: 20px;
-        display: flex;
+.container-card-3{
+    width: 200px;
+    height: 260px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.container-card-4{
+    width: 200px;
+    height: 310px;
+    margin-top: 20px;
+    display: flex;
+}
+
+
+
+    footer {
+        background-color: #b41818;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
     }
 
 }

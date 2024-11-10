@@ -14,6 +14,49 @@ header .collapse navbar-collapse {
   text-align: center;
 }
 
+h1 {
+  color: rgb(204, 175, 175);
+  text-align: center;
+  margin-top: 35px;
+}
+
+p {
+  text-align: center;
+  color: aliceblue;
+}
+
+.plan-canje {
+  text-align: center;
+  margin-top: 70px;
+}
+.plan-canje .lista-sellados {
+  margin-bottom: 40px;
+}
+
+main .procedimiento {
+  background-color: rgb(240, 240, 124);
+  position: relative;
+  top: 20px;
+  padding: 10px 5px;
+}
+main .procedimiento h2 {
+  text-align: center;
+  color: rgb(77, 85, 92);
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .procedimiento ul {
+  color: rgb(40, 48, 56);
+}
+main footer {
+  background-color: #fff8f8;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 @media screen and (min-width: 1024px) {
   section h1 {
     color: aliceblue;
@@ -49,6 +92,22 @@ header .collapse navbar-collapse {
   .botones .boton-wp {
     margin-right: 300px;
   }
+  .cardpj .procedimiento {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  section {
+    display: flex;
+  }
+  section .bloque-1 {
+    display: flex;
+    margin-left: 200px;
+  }
+  section .bloque-2 {
+    display: flex;
+    margin-top: 300px;
+  }
 }
 @media screen and (max-width: 480px) {
   section h1 {
@@ -79,8 +138,8 @@ section h1 {
 
 main .container-card {
   width: 200px;
-  height: 260px;
-  margin-top: 25px;
+  height: 310px;
+  margin-top: 20px;
   display: flex;
 }
 main .container-card-2 {
@@ -100,6 +159,15 @@ main .container-card-4 {
   height: 310px;
   margin-top: 20px;
   display: flex;
+}
+main footer {
+  background-color: #b41818;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .botones {
@@ -152,38 +220,22 @@ main .container-card-4 {
   background-color: #1a1a1a;
 }
 
-h1 {
-  color: red;
-  text-align: center;
-  margin-top: 35px;
-}
-
-p {
-  text-align: center;
+section h1 {
   color: aliceblue;
-}
-
-.plan-canje {
-  text-align: center;
-  margin-top: 70px;
-}
-.plan-canje .lista-sellados {
-  margin-bottom: 40px;
-}
-
-main .procedimiento {
-  background-color: rgb(255, 255, 255);
-  position: relative;
-  top: 20px;
-  padding: 10px 5px;
-}
-main .procedimiento h2 {
-  text-align: center;
-  color: rgb(77, 85, 92);
   font-family: Arial, Helvetica, sans-serif;
 }
-main .procedimiento ul {
-  color: rgb(40, 48, 56);
+section p {
+  color: rgb(240, 248, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+}
+section .maps {
+  text-align: center;
+}
+section h4 {
+  color: rgb(97, 97, 184);
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
