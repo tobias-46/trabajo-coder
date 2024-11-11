@@ -98,15 +98,48 @@ main footer {
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   section {
-    display: flex;
+    margin-top: 85px;
   }
-  section .bloque-1 {
-    display: flex;
-    margin-left: 200px;
+  section h1 span {
+    color: red;
   }
-  section .bloque-2 {
-    display: flex;
-    margin-top: 300px;
+  main .card {
+    height: 400px;
+  }
+  main .card p {
+    color: black;
+    font-size: 20px;
+    margin-top: 70px;
+  }
+  main .card h2 {
+    font-size: 25px;
+  }
+  main .card a {
+    text-align: center;
+    text-decoration: none;
+    display: none;
+  }
+  main .container-card {
+    margin-left: 500px;
+    position: relative;
+    top: 120px;
+  }
+  main .container-card-2 {
+    margin-left: 102px;
+    position: relative;
+    bottom: 200px;
+  }
+  main .container-card-3 {
+    margin-left: 102px;
+  }
+  main .container-card-4 {
+    margin-left: 500px;
+    position: relative;
+    bottom: 290px;
+  }
+  .botones {
+    position: relative;
+    bottom: 100px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -118,16 +151,16 @@ main footer {
     color: goldenrod;
   }
   main .container-card {
-    margin-left: 110px;
+    margin-left: 102px;
   }
   main .container-card-2 {
-    margin-left: 110px;
+    margin-left: 102px;
   }
   main .container-card-3 {
-    margin-left: 110px;
+    margin-left: 102px;
   }
   main .container-card-4 {
-    margin-left: 110px;
+    margin-left: 102px;
   }
 }
 section h1 {
@@ -235,6 +268,49 @@ section .maps {
 }
 section h4 {
   color: rgb(97, 97, 184);
+  margin-top: 20px;
+}
+
+.container-gradiente {
+  margin: 35px;
+  padding: 25px;
+  background-image: linear-gradient(to right, #F1FD7A, #CFE30D);
+  display: flex;
+}
+.container-gradiente div:first-child {
+  background-color: rgb(240, 240, 124);
+  width: 350px;
+  margin-right: 35px;
+}
+.container-gradiente div:first-child h1 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  margin-top: 25px;
+}
+.container-gradiente div:first-child p {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+.container-gradiente div:last-child {
+  background-color: #1A1A1A;
+  width: 450px;
+  padding: 20px 35px;
+  transform: translateY(60px);
+  box-shadow: -7px 32px 67px 3px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: -7px 32px 67px 3px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: -7px 32px 67px 3px rgba(0, 0, 0, 0.69);
+}
+.container-gradiente div:last-child h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+}
+.container-gradiente div:last-child p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
   margin-top: 20px;
 }
 
