@@ -142,6 +142,15 @@ main footer {
     bottom: 100px;
   }
 }
+.fotos img {
+  position: relative;
+  left: 200px;
+  top: 90px;
+}
+.fotos img:last-child {
+  margin-left: 70px;
+}
+
 @media screen and (max-width: 480px) {
   section h1 {
     color: rgb(232, 241, 239);
@@ -161,6 +170,12 @@ main footer {
   }
   main .container-card-4 {
     margin-left: 102px;
+  }
+  .container-gradiente div:first-child {
+    display: none;
+  }
+  .imagenes div:first-child {
+    margin-left: 30px;
   }
 }
 section h1 {

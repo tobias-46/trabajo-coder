@@ -28,8 +28,27 @@ main{
     }
 
     }
+    
 
-}  
+
+    .container-gradiente{
+        div:first-child{
+            display: none;
+        }
+    }
+
+
+    .imagenes{
+        
+        div:first-child{
+            margin-left: 30px;
+        }
+
+    }
+
+}
+    
+
 
 
 

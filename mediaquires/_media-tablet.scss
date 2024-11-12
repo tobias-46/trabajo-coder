@@ -66,3 +66,18 @@
 
         }  
 
+        .fotos{
+
+            img{
+            position: relative;
+            left: 200px;
+            top: 90px;
+            
+        }
+    
+        img:last-child{
+            margin-left: 70px;
+        }
+    
+        }
+
