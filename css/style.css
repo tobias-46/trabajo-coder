@@ -73,14 +73,26 @@ main footer {
   .container-card .card {
     height: 330px;
   }
+  .container-card .card p {
+    color: black;
+  }
   .container-card-2 img {
     height: 110px;
+  }
+  .container-card-2 p {
+    color: black;
   }
   .container-card-2 .card {
     height: 330px;
   }
-  .container-card-3 .card {
+  .container-card-3 p, main .container-card-4 p {
+    color: black;
+  }
+  .container-card-3 .card, main .container-card-4 .card {
     height: 330px;
+  }
+  .container-card-4 p {
+    color: black;
   }
   .container-card-4 .card {
     height: 330px;
@@ -129,7 +141,7 @@ main footer {
     position: relative;
     bottom: 200px;
   }
-  main .container-card-3 {
+  main .container-card-3, main .container-card-4 {
     margin-left: 102px;
   }
   main .container-card-4 {
@@ -151,6 +163,22 @@ main footer {
   margin-left: 70px;
 }
 
+.imagenes {
+  display: flex;
+  justify-content: space-around;
+}
+.imagenes div {
+  background-color: aliceblue;
+}
+.imagenes div img {
+  width: 180px;
+}
+.imagenes div p {
+  margin-top: 15px;
+  font-family: Arial;
+  color: black;
+}
+
 @media screen and (max-width: 480px) {
   section h1 {
     color: rgb(232, 241, 239);
@@ -165,7 +193,7 @@ main footer {
   main .container-card-2 {
     margin-left: 102px;
   }
-  main .container-card-3 {
+  main .container-card-3, main .container-card-4 {
     margin-left: 102px;
   }
   main .container-card-4 {
@@ -174,13 +202,23 @@ main footer {
   .container-gradiente div:first-child {
     display: none;
   }
-  .imagenes div:first-child {
-    margin-left: 30px;
+  .imagenes {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .imagenes div img {
+    width: 100px;
+  }
+  .imagenes div p {
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
   }
 }
 section h1 {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
   margin-top: 40px;
 }
 
@@ -196,15 +234,9 @@ main .container-card-2 {
   margin-top: 20px;
   display: flex;
 }
-main .container-card-3 {
+main .container-card-3, main .container-card-4 {
   width: 200px;
   height: 260px;
-  margin-top: 20px;
-  display: flex;
-}
-main .container-card-4 {
-  width: 200px;
-  height: 310px;
   margin-top: 20px;
   display: flex;
 }
@@ -270,7 +302,7 @@ main footer {
 
 section h1 {
   color: aliceblue;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
 }
 section p {
   color: rgb(240, 248, 255);
@@ -319,12 +351,12 @@ section h4 {
 }
 .container-gradiente div:last-child h3 {
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
   font-size: 1.3rem;
 }
 .container-gradiente div:last-child p {
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
   font-size: 18px;
   margin-top: 20px;
 }

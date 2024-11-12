@@ -1,3 +1,5 @@
+@import "../utilities/variables";
+
 @media screen and (max-width:480px){
     section{
     h1{
@@ -39,12 +41,25 @@ main{
 
 
     .imagenes{
-        
-        div:first-child{
-            margin-left: 30px;
-        }
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-around;
 
+        div{
+
+            img{
+                width: 100px;
+            }
+
+            p{
+                margin-top: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: $color-negro;
+            }
+        }
     }
+
+
 
 }
     

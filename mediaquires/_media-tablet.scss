@@ -1,3 +1,4 @@
+@import "../utilities/variables";
 @media screen and (min-width:768px) and (max-width:1023px){
 
 
@@ -16,7 +17,7 @@
             .card{
                 height: 400px;
                 p{
-                    color: black;
+                    color: $color-negro;
                     font-size: 20px;
                     margin-top: 70px;
                 }
@@ -79,5 +80,26 @@
             margin-left: 70px;
         }
     
+    
+
+    }
+
+    .imagenes{
+        display: flex;
+        justify-content:space-around;
+           
+        div{
+            background-color: aliceblue;
+
+
+        img{
+            width: 180px;
         }
 
+            p{
+                margin-top: 15px;
+                font-family:$font-arial;
+                color: $color-negro;
+        }
+    }
+    }

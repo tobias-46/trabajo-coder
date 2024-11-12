@@ -1,7 +1,8 @@
+@import "../utilities/variables";
 section{
     h1{
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font-arial;
         margin-top: 40px;
     }
 }
@@ -29,12 +30,9 @@ main {
 }
 
 .container-card-4{
-    width: 200px;
-    height: 310px;
-    margin-top: 20px;
-    display: flex;
+    
+    @extend .container-card-3
 }
-
 
 
     footer {

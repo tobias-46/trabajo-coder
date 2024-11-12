@@ -22,7 +22,9 @@
     .container-card{
     .card {
         height: 330px;
-
+        p{
+            color: black;
+        }
     }
 }
 
@@ -32,18 +34,32 @@
             height: 110px;
         }
 
+        p{
+            color: black;
+        }
+
         .card{
             height: 330px;
         }
    }
 
     .container-card-3{
+
+        p{
+            color: black;
+        }
+
         .card{
             height: 330px;
         }
     }
     
     .container-card-4{
+
+        p{
+            color: black;
+        }    
+
         .card{
             height: 330px;
         }
