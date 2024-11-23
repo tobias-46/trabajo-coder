@@ -20,8 +20,10 @@
     }
 
     .container-card{
+
     .card {
         height: 330px;
+        transition: 1s;
         p{
             color: black;
         }
@@ -29,6 +31,18 @@
 }
 
     .container-card-2{
+
+        a{
+            text-decoration: none;
+            color: red;
+            transition: 0.8s;
+
+            &:hover{
+                color: black;
+                 
+             }
+
+        }
    
         img{
             height: 110px;
@@ -36,10 +50,20 @@
 
         p{
             color: black;
+            margin-top: 30px;
         }
 
         .card{
             height: 330px;
+
+            transition: 1.2s;
+
+            &:hover{
+                background-color: rgb(165, 164, 157);
+                
+            }
+
+
         }
    }
 
@@ -49,8 +73,27 @@
             color: black;
         }
 
+        a{
+            text-decoration: none;
+            color: red;
+            transition: 0.8s;
+
+            &:hover{
+                color: black;
+                 
+             }
+
+        }
+
         .card{
             height: 330px;
+            transition: 1s;
+
+            &:hover{
+                background-color: rgb(165, 164, 157);
+                
+            }
+
         }
     }
     
@@ -58,6 +101,8 @@
 
         p{
             color: black;
+            margin-bottom: 10px;
+            
         }    
 
         .card{

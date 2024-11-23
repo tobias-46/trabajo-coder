@@ -2,6 +2,8 @@
 
 @media screen and (max-width:480px){
     section{
+
+
     h1{
         color: rgb(232, 241, 239);
         font-size: 20px;        
@@ -11,22 +13,49 @@
     }
 } 
 main{
+    flex-direction: column;
     
-    .container-card{
-        margin-left: 102px;
-        
-    }
+    
     
     .container-card-2{
+
+        .card{
+            height: 380px;
+            border-radius: 10px;
+
+        .card-text{
+            color: $color-negro;
+        }
+
+        }
+        margin-bottom: 50px;
         margin-left: 102px;
+        position: relative;
     }
 
     .container-card-3{
+        .card{
+            height: 380px;
+            border-radius: 15px;
+
+            img{
+                border-radius: 40px;
+            }
+
+            .card-text{
+                color: $color-negro;
+            }
+
+        }
+        margin-bottom: 160px;
         margin-left: 102px;
+        position: relative;
+        top: 40px;
     }
     
     .container-card-4{
         margin-left: 102px;
+        
     }
 
     }
@@ -59,7 +88,14 @@ main{
         }
     }
 
+    .botones{
+        margin-top: 180px;
+    }
 
+
+footer{
+    margin-top: 30px;
+}
 
 }
     

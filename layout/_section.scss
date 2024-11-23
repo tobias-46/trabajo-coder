@@ -8,12 +8,6 @@ section{
 }
 main {
 
-.container-card{
-    width: 200px;
-    height: 310px;
-    margin-top: 20px;
-    display: flex;
-}
 
 .container-card-2{
     width: 200px;
@@ -31,8 +25,13 @@ main {
 
 .container-card-4{
     
-    @extend .container-card-3
+    @extend .container-card-3;
 }
+
+.container-card-5{
+    @extend .container-card-3;
+}
+
 
 
     footer {
@@ -40,7 +39,8 @@ main {
         color: white;
         text-align: center;
         padding: 10px 0;
-        position: fixed;
+        position: relative;
+        top: 30px;
         bottom: 0;
         width: 100%;
     }
