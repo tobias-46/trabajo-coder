@@ -10,7 +10,14 @@ body {
 header nav {
   background-color: rgb(150, 149, 148);
 }
-header .collapse navbar-collapse {
+header .navbar-nav .nav-item a {
+  transition: 1s;
+}
+header .navbar-nav .nav-item a:hover {
+  color: #F1FD7A;
+  margin-left: 10px;
+}
+header .navbar-nav .collapse navbar-collapse {
   text-align: center;
 }
 
@@ -153,6 +160,10 @@ main footer {
   }
   footer {
     margin-top: 170px;
+  }
+  .plan-canje {
+    display: flex;
+    justify-content: space-around;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {

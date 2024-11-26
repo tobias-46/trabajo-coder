@@ -14,10 +14,26 @@ header{
         background-color: rgb(150, 149, 148) ;
         
     }
+
+    .navbar-nav{
+
+        .nav-item{
+
+            a{
+            transition: 1s;
+        
+
+        &:hover{
+            color:#F1FD7A;
+            margin-left: 10px;
+        }
+
+    }
+    }
     .collapse navbar-collapse{
         text-align: center;
     }
-    
+}
     }
 
 
