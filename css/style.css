@@ -15,7 +15,7 @@ header .collapse navbar-collapse {
 }
 
 h1 {
-  color: rgb(204, 175, 175);
+  color: #F1FD7A;
   text-align: center;
   margin-top: 35px;
 }
@@ -63,7 +63,7 @@ main footer {
     margin-bottom: 60px;
   }
   section span {
-    color: red;
+    color: #F1FD7A;
   }
   main {
     display: flex;
@@ -133,6 +133,26 @@ main footer {
   }
   .cardpj .procedimiento {
     width: 100%;
+  }
+  .imagenes {
+    position: relative;
+    top: 60px;
+  }
+  .infomacion-acc {
+    position: relative;
+    left: 45px;
+    background-color: aliceblue;
+    width: 90%;
+    border-radius: 10px;
+  }
+  .infomacion-acc p {
+    color: black;
+    margin-top: 230px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 30px;
+  }
+  footer {
+    margin-top: 170px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -268,6 +288,18 @@ main footer {
   .botones {
     margin-top: 180px;
   }
+  .infomacion-acc {
+    margin-top: 30px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 30px;
+  }
+  .infomacion-acc p {
+    padding: 15px;
+    text-align: center;
+    color: black;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
   footer {
     margin-top: 30px;
   }
@@ -352,7 +384,7 @@ main footer {
 }
 
 section h1 {
-  color: aliceblue;
+  color: #F1FD7A;
   font-family: Arial;
 }
 section p {

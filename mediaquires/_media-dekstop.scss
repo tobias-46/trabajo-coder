@@ -8,7 +8,7 @@
     }
    
     span{
-        color: red;  
+        color:  #F1FD7A;  
     }
 
    }
@@ -130,6 +130,34 @@
     
 
     }
+
+    
+    .imagenes{
+        position: relative;
+        top: 60px;
+    }
+
+    .infomacion-acc{
+        position: relative;
+        left: 45px;
+        background-color: aliceblue;
+        width: 90%;
+        border-radius: 10px;
+
+        p{
+            color: black;
+            margin-top:230px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            padding: 30px;
+            
+        }
+    }
+
+    footer{
+        margin-top: 170px;
+    }
+
+
 }
 
 
