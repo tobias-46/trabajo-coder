@@ -41,6 +41,7 @@ p {
 }
 
 main .procedimiento {
+  border-radius: 8px;
   background-color: rgb(240, 240, 124);
   position: relative;
   top: 20px;
@@ -170,9 +171,6 @@ main footer {
   section {
     margin-top: 85px;
   }
-  section h1 span {
-    color: red;
-  }
   main .card {
     height: 400px;
   }
@@ -243,9 +241,6 @@ main footer {
     color: rgb(232, 241, 239);
     font-size: 20px;
   }
-  section span {
-    color: goldenrod;
-  }
   main {
     flex-direction: column;
   }
@@ -314,6 +309,12 @@ main footer {
   footer {
     margin-top: 30px;
   }
+  .plan-canje .lista-sellados img {
+    border-radius: 20px;
+  }
+  div img {
+    border-radius: 20px;
+  }
 }
 section h1 {
   text-align: center;
@@ -334,7 +335,6 @@ main .container-card-3, main .container-card-5, main .container-card-4 {
   display: flex;
 }
 main footer {
-  background-color: #b41818;
   color: white;
   text-align: center;
   padding: 10px 0;
@@ -362,14 +362,14 @@ main footer {
 
 .bot-wpp a {
   background-color: rgb(31, 187, 83);
-  padding: 5px;
+  padding: 20px;
   color: white;
   text-decoration: none;
   border-radius: 10px;
   transition: 1s;
 }
 .bot-wpp a:hover {
-  background-color: #1a1a1a;
+  background-color: #4edf72;
 }
 
 .boton-ig {
@@ -383,15 +383,15 @@ main footer {
 }
 
 .bot-igg a {
-  background-color: rgb(235, 231, 29);
-  padding: 5px;
-  color: rgb(213, 33, 230);
+  background-color: rgb(120, 51, 160);
+  padding: 20px;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   border-radius: 10px;
   transition: 1s;
 }
 .bot-igg a:hover {
-  background-color: #1a1a1a;
+  background-color: #b23fbd;
 }
 
 section h1 {
@@ -407,8 +407,11 @@ section p {
 section .maps {
   text-align: center;
 }
+section .maps a {
+  text-decoration: none;
+}
 section h4 {
-  color: rgb(97, 97, 184);
+  color: rgb(47, 47, 192);
   margin-top: 20px;
 }
 

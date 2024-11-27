@@ -14,9 +14,14 @@ section{
     
     .maps{
         text-align: center;
+
+        a{
+            text-decoration: none;
+        }
     }
     h4{
-        color: rgb(97, 97, 184);
+        
+        color: rgb(47, 47, 192);
         margin-top: 20px;
     }
 }
